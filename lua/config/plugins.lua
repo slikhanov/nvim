@@ -15,6 +15,8 @@ vim.cmd([[
 return require('packer').startup({function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use 'shaunsingh/nord.nvim'
+  use 'folke/tokyonight.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
