@@ -1,4 +1,9 @@
+local utils = require 'config.utils'
+
+vim.g.mapleader = ';'
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
---vim.opt.background = "dark"
+utils.set_indent(2)
+vim.opt.listchars = { eol = '↲', tab = '▸ ', space = '·' }
+
