@@ -8,3 +8,6 @@ vim.keymap.set("n", "<leader>t4", function () utils.set_indent(4) end)
 vim.keymap.set("n", "<leader>f", function() require ('telescope.builtin').find_files() end)
 vim.keymap.set("n", "<leader>F", function() require ('telescope.builtin').live_grep() end)
 vim.keymap.set("n", "<leader>b", function() require ('telescope.builtin').buffers() end)
+
+-- Nvimtree
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")

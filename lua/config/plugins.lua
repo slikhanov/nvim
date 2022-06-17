@@ -23,6 +23,10 @@ return require('packer').startup({function(use)
   use 'shaunsingh/nord.nvim'
   use 'folke/tokyonight.nvim'
 
+  -- Various plugins
+  use 'kyazdani42/nvim-web-devicons'
+  use 'kyazdani42/nvim-tree.lua'
+
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- Buffer completions
