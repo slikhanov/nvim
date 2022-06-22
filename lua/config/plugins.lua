@@ -24,8 +24,9 @@ return require('packer').startup({function(use)
   use 'folke/tokyonight.nvim'
 
   -- Various plugins
-  use 'kyazdani42/nvim-web-devicons'
-  use 'kyazdani42/nvim-tree.lua'
+  use 'kyazdani42/nvim-web-devicons' -- Showing icons in NVimTree
+  use 'kyazdani42/nvim-tree.lua' -- File tree browsing plugin and file manager
+  use 'karb94/neoscroll.nvim' -- Smooth buffer scrolling
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
