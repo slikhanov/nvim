@@ -11,3 +11,7 @@ vim.keymap.set("n", "<leader>b", function() require ('telescope.builtin').buffer
 
 -- Nvimtree
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- Navigate buffers
+vim.keymap.set("n", "<S-l>", ":bnext<CR>")
+vim.keymap.set("n", "<S-h>", ":bprevious<CR>")
