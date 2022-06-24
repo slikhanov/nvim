@@ -18,4 +18,7 @@ yet. Link: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 File tree browser written in Lua, pretty lightweight. Link: [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 Use link to learn about shortcuts for file management.
 
+### null-ls
 
+This plugin attaches various command lines tools via LSP. Lots of built-in tools supported.
+Link: [null-ls]().
