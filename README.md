@@ -13,4 +13,9 @@ This is basically [tree-sitter](https://github.com/tree-sitter/tree-sitter) inte
 Suppose to give advanced and fast highlighting as well as other things. Didn't tinker with it much
 yet. Link: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
 
+### nvim-tree
+
+File tree browser written in Lua, pretty lightweight. Link: [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+Use link to learn about shortcuts for file management.
+
 
