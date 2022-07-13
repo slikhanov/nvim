@@ -21,4 +21,5 @@ Use link to learn about shortcuts for file management.
 ### null-ls
 
 This plugin attaches various command lines tools via LSP. Lots of built-in tools supported.
-Link: [null-ls]().
+Link: [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim).
+

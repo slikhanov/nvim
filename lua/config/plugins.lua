@@ -47,9 +47,6 @@ return require('packer').startup({function(use)
   use "williamboman/nvim-lsp-installer" -- Simple to use language server installer
   use "jose-elias-alvarez/null-ls.nvim" -- Integration of non-LSP tools into LSP
 
-  -- Telescope
-  use "nvim-telescope/telescope.nvim"
-
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
