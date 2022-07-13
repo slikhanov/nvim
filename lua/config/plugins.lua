@@ -28,6 +28,7 @@ return require('packer').startup({function(use)
   use 'kyazdani42/nvim-tree.lua' -- File tree browsing plugin and file manager
   use 'karb94/neoscroll.nvim' -- Smooth buffer scrolling
   use "akinsho/bufferline.nvim" -- Displays opened buffers as tabs
+  use 'ibhagwan/fzf-lua'-- Fzf integration plugin
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
