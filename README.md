@@ -23,3 +23,6 @@ Use link to learn about shortcuts for file management.
 This plugin attaches various command lines tools via LSP. Lots of built-in tools supported.
 Link: [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim).
 
+### fzf-lua
+
+This is excellent take on FZF integration into Neovim, written in Lua. Link: [fzf-lua](https://github.com/ibhagwan/fzf-lua)
