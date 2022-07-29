@@ -26,3 +26,5 @@ Link: [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim).
 ### fzf-lua
 
 This is excellent take on FZF integration into Neovim, written in Lua. Link: [fzf-lua](https://github.com/ibhagwan/fzf-lua)
+NOTE: While it's excellent, apparently it doesn't support Windows. Need to do something about it as I really want
+my config to be cross-platform.
