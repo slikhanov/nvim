@@ -17,17 +17,18 @@ return require('packer').startup({function(use)
   -- Core plugins
   use 'wbthomason/packer.nvim' -- Packer can manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
 
   -- Colorschemes
   use 'shaunsingh/nord.nvim'
   use 'folke/tokyonight.nvim'
+  use "EdenEast/nightfox.nvim"
 
   -- Various plugins
   use 'kyazdani42/nvim-web-devicons' -- Showing icons in NVimTree
   use 'kyazdani42/nvim-tree.lua' -- File tree browsing plugin and file manager
   use 'karb94/neoscroll.nvim' -- Smooth buffer scrolling
-  use "akinsho/bufferline.nvim" -- Displays opened buffers as tabs
+  --use "akinsho/bufferline.nvim" -- Displays opened buffers as tabs
   use 'ibhagwan/fzf-lua'-- Fzf integration plugin
 
   -- Cmp plugins

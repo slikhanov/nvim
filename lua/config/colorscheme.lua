@@ -1,4 +1,4 @@
-local colorscheme = "nord"
+local colorscheme = "nightfox"
 
 local status_ok, _ = pcall(require, "config.colorschemes." .. colorscheme)
 if not status_ok then
