@@ -13,3 +13,4 @@ nightfox.setup({
 
 -- Load the colorscheme
 vim.cmd[[colorscheme nordfox]]
+
