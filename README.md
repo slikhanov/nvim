@@ -28,3 +28,10 @@ Link: [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim).
 This is excellent take on FZF integration into Neovim, written in Lua. Link: [fzf-lua](https://github.com/ibhagwan/fzf-lua)
 NOTE: While it's excellent, apparently it doesn't support Windows. Need to do something about it as I really want
 my config to be cross-platform.
+
+## Color Schemes
+
+### nightfox
+
+Excellent colorscheme set written in Lua and nicely customizable. Incorporates nordfox which is a fresh take on my
+favorite Nord theme. Link: [nightfox](https://github.com/EdenEast/nightfox.nvim).
