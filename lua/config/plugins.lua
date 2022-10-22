@@ -1,6 +1,6 @@
 local install_path = vim.fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
 if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
-  packer_bootstrap = vim.fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+  PACKER_BOOTSTRAP = vim.fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
   -- Not sure why this is required, found it to address the problem with bootstrap
   vim.o.runtimepath = vim.fn.stdpath('data') .. '/site/pack/*/start/*,' .. vim.o.runtimepath
 end
@@ -30,6 +30,7 @@ return require('packer').startup({function(use)
   use 'karb94/neoscroll.nvim' -- Smooth buffer scrolling
   --use "akinsho/bufferline.nvim" -- Displays opened buffers as tabs
   use 'ibhagwan/fzf-lua'-- Fzf integration plugin
+  use 'akinsho/toggleterm.nvim' -- Toggle terminal
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -57,7 +58,7 @@ return require('packer').startup({function(use)
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
-  if packer_bootstrap then
+  if PACKER_BOOTSTRAP then
     require('packer').sync()
   end
 end,
