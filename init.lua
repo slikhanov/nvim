@@ -1,4 +1,5 @@
 require 'config.plugins'
+require 'import'
 require 'config.options'
 require 'config.keymaps'
 require 'config.colorscheme'

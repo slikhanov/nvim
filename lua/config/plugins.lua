@@ -18,9 +18,9 @@ return require('packer').startup({function(use)
   use 'wbthomason/packer.nvim' -- Packer can manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
+  use 'miversen33/import.nvim' -- Wrapper over pcall, safer version of Lua's 'require'
 
   -- Colorschemes
-  use 'shaunsingh/nord.nvim'
   use 'folke/tokyonight.nvim'
   use "EdenEast/nightfox.nvim"
 
@@ -46,6 +46,8 @@ return require('packer').startup({function(use)
   use "rafamadriz/friendly-snippets" -- Bunch of snippets to use
 
    -- LSP
+  use "williamboman/mason.nvim" -- New version of LSP and other tools installer 
+  use "williamboman/mason-lspconfig.nvim" -- Bridge plugin between Mason and built-in lspconfig
   use "neovim/nvim-lspconfig" -- Enable LSP
   use "williamboman/nvim-lsp-installer" -- Simple to use language server installer
   use "jose-elias-alvarez/null-ls.nvim" -- Integration of non-LSP tools into LSP

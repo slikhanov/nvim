@@ -4,13 +4,10 @@ if vim.g.neovide then
   return
 end
 
-local status_ok, neoscroll = pcall(require, "neoscroll")
-if not status_ok then
-  return
-end
-
-neoscroll.setup {
-  easing_function = "quadratic",
-  performance_mode = false
-}
+import('neoscroll', function(neoscroll)
+  neoscroll.setup {
+    easing_function = "quadratic",
+    performance_mode = false
+  }
+end)
 
