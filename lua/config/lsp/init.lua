@@ -3,9 +3,9 @@ if not status_ok then
   return
 end
 
-import({"mason", "mason-lspconfig"}, function(mason, mason_lspconfig)
-  mason.setup()
-  mason_lspconfig.setup()
+import({"mason", "mason-lspconfig"}, function(modules)
+  modules.mason.setup()
+  modules['mason-lspconfig'].setup()
 end)
 
 require "config.lsp.lsp-installer"

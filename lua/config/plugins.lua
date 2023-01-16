@@ -22,7 +22,7 @@ return require('packer').startup({function(use)
 
   -- Colorschemes
   use 'folke/tokyonight.nvim'
-  use "EdenEast/nightfox.nvim"
+  use 'EdenEast/nightfox.nvim'
 
   -- Various plugins
   use 'kyazdani42/nvim-web-devicons' -- Showing icons in NVimTree
@@ -49,7 +49,7 @@ return require('packer').startup({function(use)
   use "williamboman/mason.nvim" -- New version of LSP and other tools installer 
   use "williamboman/mason-lspconfig.nvim" -- Bridge plugin between Mason and built-in lspconfig
   use "neovim/nvim-lspconfig" -- Enable LSP
-  use "williamboman/nvim-lsp-installer" -- Simple to use language server installer
+  use 'simrat39/rust-tools.nvim' -- Advanced support for Rust
   use "jose-elias-alvarez/null-ls.nvim" -- Integration of non-LSP tools into LSP
 
   -- Treesitter
