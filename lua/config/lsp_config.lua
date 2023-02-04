@@ -21,7 +21,7 @@ import({"mason", "mason-lspconfig", "lspconfig", "rust-tools"}, function(modules
         settings = {
           Lua = {
             diagnostics = {
-              globals = { "vim" },
+              globals = { "vim", "import" },
             },
             workspace = {
               library = {
