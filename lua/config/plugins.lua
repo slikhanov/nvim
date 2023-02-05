@@ -31,6 +31,7 @@ return require('packer').startup({function(use)
   --use "akinsho/bufferline.nvim" -- Displays opened buffers as tabs
   use 'ibhagwan/fzf-lua'-- Fzf integration plugin
   use 'akinsho/toggleterm.nvim' -- Toggle terminal
+  use 'tenxsoydev/size-matters.nvim' -- Changing font size for Neovide
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
