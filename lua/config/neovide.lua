@@ -1,6 +1,6 @@
 if vim.g.neovide then
   if vim.fn.has("win32") then
-    vim.opt.guifont = { "JetBrainsMono NFM" }
+    vim.opt.guifont = { "JetBrainsMono NFM", ":h12" }
   else
     vim.opt.guifont = { "JetBrainsMono Nerd Font" }
   end
