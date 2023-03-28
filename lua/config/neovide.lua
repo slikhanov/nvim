@@ -2,7 +2,7 @@ if vim.g.neovide then
   if vim.fn.has("win32") > 0 then
     vim.opt.guifont = { "JetBrainsMono NFM", ":h12" }
   else
-    vim.opt.guifont = { "JetBrainsMono Nerd Font", ":h14" }
+    vim.opt.guifont = { "JetBrainsMono Nerd Font", ":h15" }
   end
   vim.g.neovide_refresh_rate_idle = 5 -- Refresh rate when application not in focus
   vim.g.neovide_cursor_trail_size = 0.1

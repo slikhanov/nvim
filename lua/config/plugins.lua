@@ -13,7 +13,7 @@ vim.cmd([[
 ]])
 
 return require('packer').startup({function(use)
-  
+
   -- Core plugins
   use 'wbthomason/packer.nvim' -- Packer can manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
@@ -32,6 +32,7 @@ return require('packer').startup({function(use)
   use 'ibhagwan/fzf-lua'-- Fzf integration plugin
   use 'akinsho/toggleterm.nvim' -- Toggle terminal
   use 'tenxsoydev/size-matters.nvim' -- Changing font size for Neovide
+  use 'dstein64/vim-startuptime' -- Plugin to measure startup time
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

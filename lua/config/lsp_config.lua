@@ -1,7 +1,7 @@
 import({"mason", "mason-lspconfig", "lspconfig", "rust-tools"}, function(modules)
   modules.mason.setup()
   modules["mason-lspconfig"].setup {
-    ensure_installed = { "sumneko_lua", "tsserver", "rust_analyzer", "gopls" },
+    ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "gopls" },
   }
 
   modules["mason-lspconfig"].setup_handlers {
@@ -16,8 +16,8 @@ import({"mason", "mason-lspconfig", "lspconfig", "rust-tools"}, function(modules
     ["rust_analyzer"] = function ()
       modules["rust-tools"].setup {}
     end,
-    ["sumneko_lua"] = function ()
-      modules["lspconfig"].sumneko_lua.setup {
+    ["lua_ls"] = function ()
+      modules["lspconfig"].lua_ls.setup {
         settings = {
           Lua = {
             diagnostics = {
